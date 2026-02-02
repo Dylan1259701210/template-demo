@@ -1,5 +1,4 @@
-import React from "react";
-import { Row, Col, Typography, Card, Space } from "antd";
+import { Typography, Card } from "antd";
 import {
 	QuestionCircleOutlined,
 	MailOutlined,
@@ -7,7 +6,7 @@ import {
 } from "@ant-design/icons";
 import "../App.less";
 
-const { Title, Paragraph, Text } = Typography;
+const { Title, Text } = Typography;
 
 export const HelpPage = () => {
 	const brandColor = "#ee3524"; // 引用主题色

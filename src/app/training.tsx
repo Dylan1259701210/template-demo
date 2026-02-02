@@ -1,5 +1,4 @@
-import React from "react";
-import { Row, Col, Card, Typography, Steps, Tag } from "antd";
+import { Row, Col, Card, Typography, Tag } from "antd";
 import { PlayCircleOutlined } from "@ant-design/icons";
 import "../App.less";
 

@@ -1,5 +1,4 @@
-import React from "react";
-import { Row, Col, Typography, Card, Space } from "antd";
+import { Row, Col, Typography } from "antd";
 import {
 	UserOutlined,
 	BulbOutlined,

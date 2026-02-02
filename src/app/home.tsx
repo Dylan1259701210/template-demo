@@ -1,10 +1,8 @@
-import React from "react";
 import { Row, Col, Card, Button, Typography, Tag } from "antd";
 import {
 	RocketOutlined,
 	QuestionCircleOutlined,
 	InfoCircleOutlined,
-	RightOutlined,
 } from "@ant-design/icons";
 import "../App.less";
 
