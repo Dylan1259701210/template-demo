@@ -1,4 +1,4 @@
-import { Row, Col, Card, Button, Typography, Tag } from "antd";
+import { Row, Col, Card, Button, Typography, Statistic, Progres
 import {
 	RocketOutlined,
 	QuestionCircleOutlined,
@@ -245,6 +245,74 @@ export const HomePage = () => {
 								borderTop: "1px solid #f0f0f0",
 							}}
 						/>
+					</Card>
+				</Col>
+			</Row>
+		</div>
+	);
+};				hoverable
+						bordered={false}
+						style={{ height: "100%" }}
+					>
+						<Card.Meta
+							title={
+								<Space align="center">
+									<ThunderboltOutlined style={{ color: "#1890ff" }} />
+									<Text strong>Program Lineage Diagram</Text>
+									<Tag size="small" color="blue">NEW</Tag>
+								</Space>
+							}
+							description="Visualize program dependencies and data flow with interactive diagrams."
+						/>
+						<div
+							style={{
+								width: "100%",
+								height: 160,
+								background: "linear-gradient(135deg, #e6f7ff 0%, #bae7ff 100%)",
+								borderRadius: 8,
+								marginTop: 16,
+								display: "flex",
+								alignItems: "center",
+								justifyContent: "center",
+								color: "#1890ff",
+							}}
+						>
+							<ThunderboltOutlined style={{ fontSize: 48 }} />
+						</div>
+					</Card>
+				</Col>
+
+				<Col xs={24} lg={12}>
+					<Card
+						hoverable
+						bordered={false}
+						style={{ height: "100%" }}
+					>
+						<Card.Meta
+							title={
+								<Space align="center">
+									<GithubOutlined style={{ color: "#722ed1" }} />
+									<Text strong>GitHub Integration</Text>
+									<Tag size="small" color="purple">NEW</Tag>
+								</Space>
+							}
+							description="Seamlessly connect your GitHub repositories for code version control."
+						/>
+						<div
+							style={{
+								width: "100%",
+								height: 160,
+								background: "linear-gradient(135deg, #f3e7ff 0%, #d9bfff 100%)",
+								borderRadius: 8,
+								marginTop: 16,
+								display: "flex",
+								alignItems: "center",
+								justifyContent: "center",
+								color: "#722ed1",
+							}}
+						>
+							<GithubOutlined style={{ fontSize: 48 }} />
+						</div>
 					</Card>
 				</Col>
 			</Row>
