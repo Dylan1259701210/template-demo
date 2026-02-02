@@ -1,17 +1,5 @@
 import React from "react";
-import {
-	Layout,
-	Menu,
-	Typography,
-	Avatar,
-	Space,
-	Row,
-	Col,
-	Divider,
-	ConfigProvider,
-	Tag,
-	Button,
-} from "antd";
+import { Layout, Menu, ConfigProvider } from "antd";
 import {
 	HomeOutlined,
 	AppstoreOutlined,
@@ -19,27 +7,10 @@ import {
 	LineChartOutlined,
 	DesktopOutlined,
 	DoubleRightOutlined,
-	ArrowRightOutlined,
-	StarFilled,
-	FileTextFilled,
-	CodeFilled,
-	PartitionOutlined,
-	FolderOpenOutlined,
-	DatabaseOutlined,
-	TeamOutlined,
-	RocketOutlined,
-	ThunderboltOutlined,
-	CheckCircleOutlined,
-	PlayCircleOutlined,
-	BookOutlined,
-	VideoCameraOutlined,
-	QuestionCircleOutlined,
-	MessageOutlined,
 } from "@ant-design/icons";
 import "./App.less";
 
 const { Header, Sider, Content } = Layout;
-const { Title, Paragraph, Text } = Typography;
 const { useState } = React;
 
 // 导入页面组件
