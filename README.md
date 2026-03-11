@@ -42,6 +42,29 @@ flowchart LR
     L3["净胜"] --- B3["&nbsp;&nbsp;"] --- V3["98%"]
 
     classDef default fill:none,stroke:none
+    classDef label fill:none,stroke:none,color:#333,font-size:14px
+    classDef value fill:none,stroke:none,color:#333,font-size:16px,font-weight:bold
+    classDef barBlue fill:#5a9fd4,stroke:none,border-radius:16px,font-size:1px,line-height:1.2,padding:0px 0,width: 300,height: 20
+    classDef barGreen fill:#57c596,stroke:none,border-radius:16px,font-size:1px,line-height:1.2,padding:0px 0,width: 300,height: 20
+    classDef barPink fill:#ed66a3,stroke:none,border-radius:16px,font-size:1px,line-height:1.2,padding:0px 0,width: 280,height: 20
+
+    class L1,L2,L3 label
+    class V1,V2,V3 value
+    class B1 barBlue
+    class B2 barGreen
+    class B3 barPink
+
+    linkStyle default stroke:none,stroke-width:0
+```
+
+
+```mermaid
+flowchart LR
+    L1["生活"] --- B1["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"] --- V1["100%"]
+    L2["压力"] --- B2["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"] --- V2["100%"]
+    L3["净胜"] --- B3["&nbsp;&nbsp;"] --- V3["98%"]
+
+    classDef default fill:none,stroke:none
     classDef label fill:none,stroke:none,color:#333,font-size:14px,
     classDef value fill:none,stroke:none,color:#333,font-size:16px,font-weight:bold
     classDef barBlue fill:#5a9fd4,stroke:none,border-radius:16px,font-size:1px,line-height:1.2,padding:0px 0,width: 300,height: 20
