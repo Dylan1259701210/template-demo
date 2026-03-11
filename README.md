@@ -1,3 +1,21 @@
+
+<div style="font-family: Arial;">
+  <div style="display: flex; align-items: center; margin: 10px 0;">
+    <span style="width: 50px; color: #333;">生活</span>
+    <div style="width: 300px; height: 20px; background: #5a9fd4; border-radius: 16px;"></div>
+    <span style="color: #333; font-weight: bold; margin-left: 10px;">100%</span>
+  </div>
+  <div style="display: flex; align-items: center; margin: 10px 0;">
+    <span style="width: 50px; color: #333;">压力</span>
+    <div style="width: 300px; height: 20px; background: #57c596; border-radius: 16px;"></div>
+    <span style="color: #333; font-weight: bold; margin-left: 10px;">100%</span>
+  </div>
+  <div style="display: flex; align-items: center; margin: 10px 0;">
+    <span style="width: 50px; color: #333;">净胜</span>
+    <div style="width: 280px; height: 20px; background: #ed66a3; border-radius: 16px;"></div>
+    <span style="color: #333; font-weight: bold; margin-left: 10px;">98%</span>
+  </div>
+</div>
 <div align="center">
 
 # 🤖 <span style="color:#00d4ff; text-shadow: 0 0 15px #00d4ff, 0 0 30px #00d4ff;">AI-Powered SaaS Platform</span>
